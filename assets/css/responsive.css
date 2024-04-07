@@ -1,0 +1,719 @@
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* Banner */
+  .banner-area .wavesshape.shape {
+    bottom: -5px;
+  }
+
+  /* Fun Factor */
+  .fun-fact-area .fun-fact {
+    display: block;
+    text-align: center;
+  }
+
+  .fun-fact-area .fun-fact .info {
+    padding-left: 0;
+  }
+
+  .fun-fact-area .fun-fact .icon i {
+    margin-bottom: 25px;
+  }
+
+  /* About */
+  .about-area .thumb-box {
+    padding-right: 15px;
+  }
+
+  .about-area .thumb .center img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about-area .thumb {
+    margin-bottom: 50px;
+  }
+
+  .about-area .about-content .info {
+    text-align: center;
+  }
+
+  /* Transmission */
+  .transmission-items .item .row {
+    align-items: inherit;
+  }
+
+  .transmission-items .item .info h3 {
+    margin-top: 20px;
+  }
+
+  /* Symptoms */
+  .contagion-items .item {
+    border: 1px solid #e7e7e7;
+  }
+
+  /* Safe Way */
+
+  .safe-way-items .info {
+    padding-left: 15px;
+    margin-top: 30px;
+  }
+
+  .safe-way-items {
+    margin-top: 0;
+  }
+
+  .safe-way-items .single-item {
+    margin-top: 50px;
+  }
+
+  .safe-way-items .single-item:first-child {
+    margin-top: 0;
+  }
+
+  .safe-way-items .single-item:nth-child(2n) {
+    margin-top: 50px;
+  }
+
+  .safe-way-items .single-item:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .safe-way-items .single-item:nth-child(2n) .item .title {
+    top: 0;
+    position: inherit;
+  }
+
+  .safe-way-items .single-item:nth-child(2n) .item img {
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
+
+
+  /* Responsibilities */
+  .responsibilities-items .right-item {
+    margin-top: 30px;
+  }
+
+  .responsibilities-items .item ul li .thumb img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* Faq */
+  .faq-area .thumb {
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+
+  /* Blog */
+  .blog-area.left-sidebar .blog-content {
+    float: none;
+  }
+
+  .blog-area.left-sidebar .sidebar,
+  .blog-area.right-sidebar .sidebar {
+    margin-top: 50px;
+  }
+
+  .blog-area.right-sidebar .sidebar {
+    padding-left: 15px;
+  }
+
+  .blog-area.left-sidebar .sidebar {
+    padding-right: 15px;
+  }
+
+  /* Contact */
+  .contact-us-area .container >.col-md-12 {
+    padding: 0;
+  }
+
+  .contact-us-area .contact-items .address-items {
+    border-right: none;
+    margin-right: 0;
+    text-align: center;
+    border-bottom: ;
+  }
+
+  .contact-us-area .contact-forms {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .contact-us-area .contact-items .address-items li {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 25px;
+  }
+
+  /* Footer */
+  footer .f-items .equal-height:first-child,
+  footer .f-items .equal-height:nth-child(2) {
+    margin-top: 0;
+  }
+
+  footer .f-items .equal-height {
+    margin-top: 50px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .footer-bottom .text-right {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .footer-bottom .link li {
+    padding: 0 7px;
+    margin: 0 7px;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+  /* Heading */
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  h6 {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .container-medium {
+    width: 100%;
+  }
+
+  .default-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .padding-xl {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .default-padding.bottom-less {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+
+  .default-padding-bottom {
+    padding-bottom: 50px;
+  }
+
+  .default-padding-top {
+    padding-top: 50px;
+  }
+
+  .default-padding.bottom-30 {
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
+
+  .default-padding.bottom-20 {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+
+  .padding-less-mobile {
+    padding-top: 0;
+  }
+
+  .site-heading {
+    margin-bottom: 40px;
+  }
+
+  .site-heading.single {
+    margin-bottom: 20px;
+  }
+
+  .breadcrumb-area h1 {
+    font-size: 36px;
+  }
+
+  .page-title-area {
+    padding: 100px 0;
+  }
+
+  .page-title-area h1 {
+    font-size: 36px;
+  }
+
+  .owl-carousel.owl-theme .owl-nav {
+    display: none;
+  }
+
+  nav.navbar .attr-nav {
+    display: none;
+  }
+
+  .breadcrumb-area {
+    padding-bottom: 100px;
+    padding-top: 170px;
+  }
+
+  /* Banner Area */
+
+  .banner-area.single-banner.bg-cover .content {
+    padding-top: 120px;
+    padding-bottom: 90px;
+  }
+
+  .banner-area.single-banner .content h2 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .banner-area.single-banner .content ul li {
+    margin: 7px;
+  }
+
+  /* Banner */
+  .banner-area .wavesshape.shape {
+    bottom: -5px;
+  }
+
+  .banner-area .content h2 {
+    font-size: 36px;
+  }
+
+  body, .banner-area, .banner-area div {
+    height: auto;
+  }
+
+  .banner-area .content {
+    overflow: hidden;
+    padding: 50px 0;
+  }
+
+  .banner-area.top-padding .content {
+    padding-top: 130px;
+  }
+
+  .banner-area.carousel-indicator-inc .content {
+    padding-bottom: 90px;
+  }
+
+  .banner-area .text-normal .content h2 {
+    font-size: 36px;
+  }
+
+  .banner-area .content a.video-play-button.relative {
+    left: 44px;
+    display: none;
+  }
+
+  .banner-area.auto-height .double-items, 
+  .banner-area.auto-height .content-box {
+    overflow: hidden;
+    padding-top: 70px;
+  }
+
+  .banner-area.text-normal .content h2 {
+    font-size: 36px;
+  }
+
+  .banner-area .content-box .thumb {
+    margin-top: 0;
+  }
+
+  /* Carousel Indicators */
+  .banner-area .carousel-indicators {
+    right: auto;
+    left: 50%;
+    top: auto;
+    transform: translate(-50%, -50%);
+    bottom: 25px;
+  }
+
+  .banner-area .carousel-indicators li {
+    display: inline-block;
+    margin: 0 4px;
+  }
+
+  /* Fun Factor */
+  .fun-fact-area.default-padding {
+    padding-bottom: 0;
+  }
+
+  .fun-fact-area .fun-fact {
+    display: block;
+    text-align: center;
+  }
+
+  .fun-fact-area .fun-fact .info {
+    padding-left: 0;
+  }
+
+  .fun-fact-area .fun-fact .icon i {
+    margin-bottom: 25px;
+  }
+
+  /* About */
+
+  .about-area .about-content .info {
+    text-align: center;
+  }
+
+  .about-area .thumb-box {
+    padding-right: 15px;
+  }
+
+  .about-area .thumb {
+    margin-bottom: 30px;
+  }
+
+  .about-area .thumb .center img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+  }
+
+  .about-area .thumb .top,
+  .about-area .thumb .bottom {
+    display: none;
+  }
+
+  .about-area .info ul li {
+    width: 100%;
+  }
+
+  .about-area .pos-left .thumb .center img {
+    border-radius: inherit;
+  }
+
+  /* Transmission */
+  .transmission-items .item .row {
+    display: block;
+  }
+
+  .transmission-items .item {
+    margin-bottom: 30px;
+  }
+
+  .transmission-items .item .thumb {
+    margin-bottom: 30px;
+  }
+
+  .transmission-items .item .info {
+    padding-left: 15px;
+  }
+
+  .transmission-items .item .info h3::before {
+    left: 30px;
+    top: -65px;
+  }
+
+  .transmission-items .item .info h3::after {
+    left: 36px;
+    top: -50px;
+    height: 35px;
+    width: 1px;
+    border-bottom: none;
+    border-right: 2px dashed #116246;
+  }
+
+  /* Responsibilities */
+  .responsibilities-items .right-item {
+    margin-top: 30px;
+  }
+
+  .responsibilities-items .item ul {
+    padding: 50px 30px;
+  }
+
+  .responsibilities-items .item ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .responsibilities-items .item ul li .thumb {
+    width: 100%;
+    margin: auto auto 25px;
+  }
+
+  .responsibilities-items .item ul li .info {
+    width: 100%;
+    padding-left: 0;
+  }
+
+
+  /* Safe Way */
+
+  .safe-way-items .info {
+    padding-left: 15px;
+    margin-top: 30px;
+  }
+
+  .safe-way-items {
+    margin-top: 0;
+  }
+
+  .safe-way-items .single-item {
+    margin-top: 50px;
+  }
+
+  .safe-way-items .single-item:first-child {
+    margin-top: 0;
+  }
+
+  .safe-way-items .single-item:nth-child(2n) {
+    margin-top: 50px;
+  }
+
+  .safe-way-items .single-item:nth-child(2n) .item .title {
+    top: 0;
+    position: inherit;
+  }
+
+  .safe-way-items .single-item:nth-child(2n) .item img {
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
+
+  /* Hand Wash */
+  .hand-washing-items .single-item:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Symptoms */
+  .contagion-items .item {
+    border: 1px solid #e7e7e7;
+  }
+
+
+  /* Blog */
+  .blog-area.left-sidebar .blog-content {
+    float: none;
+  }
+
+  .blog-area.left-sidebar .sidebar,
+  .blog-area.right-sidebar .sidebar {
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  .blog-area.right-sidebar .sidebar {
+    padding-left: 15px;
+  }
+
+  .blog-area.left-sidebar .sidebar {
+    padding-right: 15px;
+  }
+
+  .blog-area.single .post-pagi-area {
+    text-align: center;
+  }
+
+  .blog-area.single .post-pagi-area a {
+    margin: 5px;
+  }
+
+  .blog-area.single .post-pagi-area a:last-child {
+    float: none;
+  }
+
+  .comments-list .commen-item.reply {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .comments-list .commen-item .content, 
+  .comments-list .commen-item .avatar {
+    display: block;
+    text-align: center;
+  }
+
+  .comments-list .commen-item .content {
+    width: 100%;
+  }
+
+  .comments-list .commen-item .avatar {
+    float: none;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+  }
+
+  .comments-list .commen-item .content .title {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .comments-list .commen-item .content .title span {
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .comments-list .commen-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 15px;
+  }
+
+  .comments-list .commen-item:last-child {
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+  }
+
+  .blog-area .comments-form {
+    margin-top: 30px;
+  }
+
+
+  /* Contact */
+  .contact-us-area .container > .col-md-12 {
+    padding: 0;
+  }
+
+  .contact-us-area .contact-items .address-items {
+    border-right: none;
+    margin-right: 0;
+    text-align: center;
+    border-bottom: ;
+  }
+
+  .contact-us-area .contact-forms {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .contact-us-area .contact-items .address-items li {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 25px;
+  }
+
+
+  /* Faq */
+  .faq-area .thumb {
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+
+  .faq-area .acd-items {
+    padding: 30px 15px;
+    padding-bottom: 25px;
+  }
+
+  .faq-area .faq-items .nav-pills li {
+      width: 100%;
+      margin-right: 0;
+  }
+
+  .faq-area .faq-items .nav-pills li a {
+      display: block;
+      text-align: center;
+  }
+
+  /* Footer */
+
+  footer .f-items .equal-height:first-child {
+    margin-top: 0;
+  }
+
+  footer .f-items .equal-height {
+    margin-top: 50px;
+  }
+
+  footer .f-items .f-item.about {
+    padding-right: 0;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .footer-bottom .text-right {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .footer-bottom .link li {
+    padding: 0 7px;
+    margin: 0 7px;
+  }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* About */
+  .about-area .info ul li {
+    width: auto;
+  }
+
+  /* Blog */
+  .comments-list .commen-item .content, 
+  .comments-list .commen-item .avatar {
+    display: table-cell;
+    text-align: left;
+  }
+
+  .comments-list .commen-item .content {
+    width: auto;
+  }
+
+  .comments-list .commen-item .avatar {
+    float: none;
+    height: 80px;
+    width: 80px;
+    margin: inherit;
+  }
+
+  .comments-list .commen-item .content .title {
+    margin-top: 0;
+  }
+
+  .comments-list .commen-item .content {
+    padding-left: 25px;
+  }
+
+  .comments-list .commen-item .content .title {
+    margin-top: 0;
+  }
+
+  .blog-area.single .post-pagi-area {
+    text-align: inherit;
+  }
+
+  .blog-area.single .post-pagi-area a:last-child {
+    float: right;
+  }
+}
